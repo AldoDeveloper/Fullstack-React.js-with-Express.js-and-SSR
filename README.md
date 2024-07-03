@@ -62,7 +62,7 @@ This project is a fullstack web application that demonstrates the use of React.j
 ## Installation App
 
 ```bash
-cd ../client
+cd fullstack-react-express-ssr
 $ npm install
 ```
 
