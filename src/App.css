@@ -1,0 +1,99 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container-error{
+  position: relative;
+  text-align: center;
+}
+
+p{
+    margin: unset;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+.container-error p{
+    text-align: center;
+    opacity: 0.5;
+    font-size: 1.5rem;
+}
+.text-center{
+    text-align: center;
+}
+
+.container-error .text-error{
+    font-size: 7.5rem;
+    text-align: center;
+    font-weight: 700;
+    opacity: 0.5;
+}
+
+.container{
+    padding: 10px;
+    position: relative;
+    margin: 0;
+}
+
+img {
+    transition: filter 0.5s ease;
+}
+
+img:hover{
+    filter: grayscale(100%);
+}
+
+.container .flex{
+    display: flex;
+    gap: 1.9rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+@keyframes scaleUp {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+  .animated-image {
+    animation: scaleUp 2.5s infinite;
+  }
+
+  .animated-image:nth-child(2) {
+    animation: scaleUp 3s infinite;
+  }
+
+  .container button{
+    width: 90px;
+    padding: 7px;
+    border-radius: 20px;
+    outline: none;
+    transition: .2s ease-in-out;
+    background-color:  rgb(31, 30, 30);
+    color: white;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+  }
+
+  .container button:hover{
+    box-shadow: 1px 3px 3px 1px blueviolet;
+    background-color:  rgb(27, 25, 25);
+  }

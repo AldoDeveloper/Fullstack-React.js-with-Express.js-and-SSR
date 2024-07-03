@@ -1,0 +1,7 @@
+{
+    "verbose" : false,
+    "watch": ["src", "api", "web", "error", "server.js"],
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "node server"
+}
